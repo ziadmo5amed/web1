@@ -1,0 +1,31 @@
+.contain {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* يجعل الأعمدة مرنة */
+    gap: 20px; /* مسافة بين البطاقات */
+    padding: 20px;
+    max-width: 1200px; /* تحديد عرض أقصى للشبكة */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width:425px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        
+    }
+  
+  }
+  @media(max-width:768px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 20px; */
+
+    }
+  
+  }
