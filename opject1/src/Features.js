@@ -4,7 +4,10 @@ import Data from "./Data";
 
 function Features() {
     return(
-
+        <section className="feature">
+        <div className="title"> <h2>PROJECTS</h2></div>
+       
+    
       <div className="contain">
 
        {Data.map((features)=>(
@@ -18,7 +21,7 @@ function Features() {
    
         ))}
 </div>
-
+</section>
     );
 }
 

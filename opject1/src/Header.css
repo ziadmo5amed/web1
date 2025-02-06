@@ -2,7 +2,7 @@
 .main-section {
     display: flex;
     justify-content: space-between;
-    background-image: url(./photo_1.jpg);
+    background-image: url("../public/photo_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -11,25 +11,25 @@
     height: 100%;
 }
 
-.content {
+.main-section .content {
     color: white;
     margin-top: 300px;
     margin-left: 190px;
 }
 
-h1 {
+.main-section .content h1 {
     font-size: 3rem;
     color: #007bff;
     margin-top: 10px;
 }
 
-h2.web-developer {
+h2 .web-developer {
     font-size: 2.5rem;
 }
 
-p {
+.main-section .content p {
     font-size: 1.5rem;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 .btn {
@@ -59,4 +59,18 @@ p {
 
 .social-icons a:hover {
     color: #007bff;
+}
+
+
+@media(max-width:425px) {
+    .main-section .content {
+        color: white;
+        margin-top: 300px;
+        margin-left: 75px;
+    }
+    .main-section .content h1 {
+        font-size: 2rem;
+        color: #007bff;
+        margin-top: 10px;
+    }
 }

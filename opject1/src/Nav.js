@@ -1,8 +1,11 @@
-import './Nav.css';
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Nav.css';
 function Nav() {
   return (
+    <div className="container">
+
+    
     <div className='Nav'>
         <div className='leftSide'>
             <h1>MO</h1>
@@ -14,6 +17,7 @@ function Nav() {
                 <li>Services</li>
              </ul>
         </div>
+    </div>
     </div>
   )
 }

@@ -3,10 +3,12 @@ import "./Card.css"
 function Card({features}) {
     const {img ,text ,head ,link} =features;
 return(
+    
+    <section className='project'>
 
-  <section className="cards">
+  <div className="cards">
+      
     <div className="container">
-        
         <div className="card">
             <img src={img} alt="" className="card-img" />
 
@@ -23,9 +25,9 @@ return(
         </div>
     </div>
 
+  </div>
   </section>
-
-
+ 
 )
 }
 

@@ -1,40 +1,60 @@
- body {
-    background-color: rgb(26, 26, 26);
-    width: 100%;
+ 
+
+.project .cards .container .title {
+    width: 300px;
+    height: 150px;
+    border: 2px solid white;
  }
-
- 
  
 
-.cards .container .card {
+ .project  .cards .container .card {
     width: 300px;
     height: 250px;
 }
-.cards .container .card:hover {
+.project  .cards .container .card:hover {
     transform: scale(1.04);
     transition-duration: 0.3s;
 }
-.cards .container .card p{
+.project  .cards .container .card p{
     font-size: 16px;
 }
 
-.cards .container .card img {
+.project  .cards .container .card img {
     width: 100%;
     height: 150px;
 }  
-.cards .container .card a {
+.project  .cards .container .card a {
     text-decoration: none;
     color: aqua;
     font-weight: 600;
 }
-.cards .container .card a:hover {
+.project .cards .container .card a:hover {
     color: rgb(13, 110, 110);
     transition-duration: 0.3s;
 }
-.cards .container .body-footer {
+.project  .cards .container .body-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
- 
+@media(max-width:425px) {
+    .project  .cards .container .card {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media(max-width:375px) {
+    .project  .cards .container .card {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media(max-width:320px) {
+    .project  .cards .container .card {
+        width: 300px;
+        height: 250px;
+    }
+}

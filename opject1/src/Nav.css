@@ -1,21 +1,24 @@
 .Nav {
-    background-color: white;
+     
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
-    z-index: 100;
+   
 }
 .leftSide h1 {
     color: rgb(16, 198, 230);
 }
 .rightSide ul {
     list-style: none;
+    display: flex;
+    gap: 10px;
 }
-.rightSide ul li{
+.rightSide ul li {
     display: inline-block;
-    padding: 25px;
+    /* padding: 25px; */
     color: rgb(16, 198, 230);
     font-size: 20px;
+    font-size: 14px;
 }
