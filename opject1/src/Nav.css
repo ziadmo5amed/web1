@@ -1,0 +1,21 @@
+.Nav {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    z-index: 100;
+}
+.leftSide h1 {
+    color: rgb(16, 198, 230);
+}
+.rightSide ul {
+    list-style: none;
+}
+.rightSide ul li{
+    display: inline-block;
+    padding: 25px;
+    color: rgb(16, 198, 230);
+    font-size: 20px;
+}
