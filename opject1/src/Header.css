@@ -47,7 +47,7 @@ h2 .web-developer {
     
 }
 
-.social-icons a {
+.social-icons a i{
     margin-right: 20px;
     border-radius: 5px;
     color: white;
@@ -57,7 +57,7 @@ h2 .web-developer {
     padding: 12px 12px 10px 12px;
 }
 
-.social-icons a:hover {
+.social-icons a i:hover {
     color: #007bff;
 }
 

@@ -1,16 +1,18 @@
 import './Section1.css';
 function Section1() {
-  return (
+  return ( 
     <div className="section1">
-      <span className='sp1'></span>
-    <button>SERVICES</button>
-    <span className='sp2'></span>
+       
+      <div className="title"> <h2>SERVICES</h2>  </div>
+
+   
+   
     <div className='contain'>
         <div className='box' >
         <i class='bx bxs-pencil'></i>        
-        <h2 className='head'>
+        <h5 className='head'>
             script writing
-        </h2>
+        </h5>
         <p className='lorem'>
         Lorem ipsum dolor sit amet consectetur
          adipisicing elit. Est cum reprehenderit 
@@ -22,9 +24,9 @@ function Section1() {
         </div>
         <div className='box2' >
         <i class='bx bxl-chrome'></i>
-        <h2 className='head'>
+        <h5 className='head'>
            make websites
-        </h2>
+        </h5>
         <p className='lorem'>
         Lorem ipsum dolor sit amet consectetur
          adipisicing elit. Est cum reprehenderit 
@@ -36,9 +38,9 @@ function Section1() {
         </div>
         <div className='box' >
         <i class='bx bxs-video' ></i>
-        <h2 className='head'>
+        <h5 className='head'>
             video production
-        </h2>
+        </h5>
         <p className='lorem'>
         Lorem ipsum dolor sit amet consectetur
          adipisicing elit. Est cum reprehenderit 
