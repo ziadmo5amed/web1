@@ -1,0 +1,119 @@
+.feature {
+  padding-top: 30px;
+  background-color: rgb(26, 26, 26);
+ 
+}
+ 
+.title {
+  display: flex;
+  justify-content: center;    
+  align-items: center;  
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+  position: relative;
+}
+.title::after {
+  content: "";     
+  position: absolute;
+  width:15px;
+  height: 15px;
+  background-color: #ffffff;    
+  left: 59%;   
+  transform: translateX(-50%);   
+  
+  border-radius: 50%;
+}
+.title::before {
+  content: "";     
+  position: absolute;
+  width:15px;
+  height: 15px;
+  background-color: #ffffff;    
+  left:41%;   
+  transform: translateX(-50%);   
+  
+  border-radius: 50%;
+}
+.title h2 {
+  display: inline-block;
+  color: #fffefe;
+  padding: 10px 20px;     
+  border: 2px solid #fffefe;     
+  font-size: 24px;   
+  font-weight: bold;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));     
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1200px;  
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width:425px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        
+    }
+    .title::after {
+    display: none;
+    }
+    .title::before {
+    display: none;
+  }
+}
+  @media(max-width:768px) {
+    .contain {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+
+    }
+
+    .title::after {
+      content: "";     
+      position: absolute;
+      width:15px;
+      height: 15px;
+      background-color: #ffffff;    
+      left:63%;   
+      transform: translateX(-50%);   
+      
+      border-radius: 50%;
+    }
+  
+    .title::before {
+      content: "";     
+      position: absolute;
+      width:15px;
+      height: 15px;
+      background-color: #ffffff;    
+      left:37%;   
+      transform: translateX(-50%);   
+      
+      border-radius: 50%;
+    }
+
+
+
+  }
+
+
+  @media(max-width:425px) {
+    .contain {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      justify-content: center;
+      align-items: center;
+      margin-left: -20px;
+
+  }
+  }
