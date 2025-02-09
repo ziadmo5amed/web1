@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "opject1",
   "version": "0.1.0",
   "private": true,
@@ -34,9 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "web-vitals": "^4.2.4"
->>>>>>> origin/main
   }
 }
